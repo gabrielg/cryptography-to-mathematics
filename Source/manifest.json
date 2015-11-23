@@ -1,15 +1,16 @@
 {
 	"manifest_version": 2,
 	"name": "Cryptography to Mathematics",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Replaces the text 'cryptography' with 'mathematics'.",
-	"content_scripts": 
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-	]
+	"icons": {
+		"16": "abacus-16.png",
+    "48": "abacus-48.png",
+    "128": "abacus-128.png"
+  }, "content_scripts": [{
+		"matches": ["*://*/*"],
+		"js": ["content_script.js"],
+		"run_at": "document_end"
+	}]
 }
 
