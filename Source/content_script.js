@@ -7,8 +7,8 @@ var replacements = [
     ['encryption', 'use of math'],
     ['Encrypted', 'Mathed'],
     ['encrypted', 'mathed'],
-    ['Cryptographer', 'Math-Liker'],
-    ['cryptographer', 'math-liker'],
+    ['Cryptographer', 'Mathematician'],
+    ['cryptographer', 'mathematician'],
 ];
 
 for (i = 0; i < replacements.length; i++) {
